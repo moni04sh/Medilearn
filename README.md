@@ -90,7 +90,3 @@ Troubleshooting
 - WebXR not available: check feature detection in browser (Chrome on Android with WebXR flags) and fall back to 2D viewer.
 - Large model downloads: host model artifacts on a CDN or ensure Docker images do not embed large model files; mount model volumes instead.
 - CORS errors: ensure backend allows requests from frontend origin in development and production.
-
-Contributing
-- Fork the repo, create a feature branch, add focused commits, and open a PR with a clear description and testing steps.
-- Keep secrets out of git. If secrets were committed, rotate them immediately.
